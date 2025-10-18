@@ -1,0 +1,377 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\angel\\source\\repos\\MVP-ProyectoFinal\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{247103B9-3BCF-4194-8B98-4787F4690F91}|MVP-ProyectoFinal.csproj|c:\\users\\angel\\source\\repos\\mvp-proyectofinal\\views\\juego\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{247103B9-3BCF-4194-8B98-4787F4690F91}|MVP-ProyectoFinal.csproj|solutionrelative:views\\juego\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{247103B9-3BCF-4194-8B98-4787F4690F91}|MVP-ProyectoFinal.csproj|c:\\users\\angel\\source\\repos\\mvp-proyectofinal\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{247103B9-3BCF-4194-8B98-4787F4690F91}|MVP-ProyectoFinal.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{247103B9-3BCF-4194-8B98-4787F4690F91}|MVP-ProyectoFinal.csproj|c:\\users\\angel\\source\\repos\\mvp-proyectofinal\\views\\entidad\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{247103B9-3BCF-4194-8B98-4787F4690F91}|MVP-ProyectoFinal.csproj|solutionrelative:views\\entidad\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{247103B9-3BCF-4194-8B98-4787F4690F91}|MVP-ProyectoFinal.csproj|c:\\users\\angel\\source\\repos\\mvp-proyectofinal\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{247103B9-3BCF-4194-8B98-4787F4690F91}|MVP-ProyectoFinal.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{247103B9-3BCF-4194-8B98-4787F4690F91}|MVP-ProyectoFinal.csproj|c:\\users\\angel\\source\\repos\\mvp-proyectofinal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{247103B9-3BCF-4194-8B98-4787F4690F91}|MVP-ProyectoFinal.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{247103B9-3BCF-4194-8B98-4787F4690F91}|MVP-ProyectoFinal.csproj|c:\\users\\angel\\source\\repos\\mvp-proyectofinal\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{247103B9-3BCF-4194-8B98-4787F4690F91}|MVP-ProyectoFinal.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{247103B9-3BCF-4194-8B98-4787F4690F91}|MVP-ProyectoFinal.csproj|c:\\users\\angel\\source\\repos\\mvp-proyectofinal\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{247103B9-3BCF-4194-8B98-4787F4690F91}|MVP-ProyectoFinal.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{247103B9-3BCF-4194-8B98-4787F4690F91}|MVP-ProyectoFinal.csproj|c:\\users\\angel\\source\\repos\\mvp-proyectofinal\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{247103B9-3BCF-4194-8B98-4787F4690F91}|MVP-ProyectoFinal.csproj|solutionrelative:views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{247103B9-3BCF-4194-8B98-4787F4690F91}|MVP-ProyectoFinal.csproj|c:\\users\\angel\\source\\repos\\mvp-proyectofinal\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{247103B9-3BCF-4194-8B98-4787F4690F91}|MVP-ProyectoFinal.csproj|solutionrelative:views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{247103B9-3BCF-4194-8B98-4787F4690F91}|MVP-ProyectoFinal.csproj|c:\\users\\angel\\source\\repos\\mvp-proyectofinal\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{247103B9-3BCF-4194-8B98-4787F4690F91}|MVP-ProyectoFinal.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{247103B9-3BCF-4194-8B98-4787F4690F91}|MVP-ProyectoFinal.csproj|c:\\users\\angel\\source\\repos\\mvp-proyectofinal\\models\\versioncomparer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{247103B9-3BCF-4194-8B98-4787F4690F91}|MVP-ProyectoFinal.csproj|solutionrelative:models\\versioncomparer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{247103B9-3BCF-4194-8B98-4787F4690F91}|MVP-ProyectoFinal.csproj|c:\\users\\angel\\source\\repos\\mvp-proyectofinal\\models\\resultadointentovm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{247103B9-3BCF-4194-8B98-4787F4690F91}|MVP-ProyectoFinal.csproj|solutionrelative:models\\resultadointentovm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{247103B9-3BCF-4194-8B98-4787F4690F91}|MVP-ProyectoFinal.csproj|c:\\users\\angel\\source\\repos\\mvp-proyectofinal\\models\\resultadointentoentidadvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{247103B9-3BCF-4194-8B98-4787F4690F91}|MVP-ProyectoFinal.csproj|solutionrelative:models\\resultadointentoentidadvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{247103B9-3BCF-4194-8B98-4787F4690F91}|MVP-ProyectoFinal.csproj|c:\\users\\angel\\source\\repos\\mvp-proyectofinal\\models\\repositorioentidades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{247103B9-3BCF-4194-8B98-4787F4690F91}|MVP-ProyectoFinal.csproj|solutionrelative:models\\repositorioentidades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{247103B9-3BCF-4194-8B98-4787F4690F91}|MVP-ProyectoFinal.csproj|c:\\users\\angel\\source\\repos\\mvp-proyectofinal\\models\\repositoriobloques.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{247103B9-3BCF-4194-8B98-4787F4690F91}|MVP-ProyectoFinal.csproj|solutionrelative:models\\repositoriobloques.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{247103B9-3BCF-4194-8B98-4787F4690F91}|MVP-ProyectoFinal.csproj|c:\\users\\angel\\source\\repos\\mvp-proyectofinal\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{247103B9-3BCF-4194-8B98-4787F4690F91}|MVP-ProyectoFinal.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{247103B9-3BCF-4194-8B98-4787F4690F91}|MVP-ProyectoFinal.csproj|c:\\users\\angel\\source\\repos\\mvp-proyectofinal\\models\\entidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{247103B9-3BCF-4194-8B98-4787F4690F91}|MVP-ProyectoFinal.csproj|solutionrelative:models\\entidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{247103B9-3BCF-4194-8B98-4787F4690F91}|MVP-ProyectoFinal.csproj|c:\\users\\angel\\source\\repos\\mvp-proyectofinal\\models\\bloque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{247103B9-3BCF-4194-8B98-4787F4690F91}|MVP-ProyectoFinal.csproj|solutionrelative:models\\bloque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{247103B9-3BCF-4194-8B98-4787F4690F91}|MVP-ProyectoFinal.csproj|c:\\users\\angel\\source\\repos\\mvp-proyectofinal\\controllers\\juegocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{247103B9-3BCF-4194-8B98-4787F4690F91}|MVP-ProyectoFinal.csproj|solutionrelative:controllers\\juegocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{247103B9-3BCF-4194-8B98-4787F4690F91}|MVP-ProyectoFinal.csproj|c:\\users\\angel\\source\\repos\\mvp-proyectofinal\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{247103B9-3BCF-4194-8B98-4787F4690F91}|MVP-ProyectoFinal.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{247103B9-3BCF-4194-8B98-4787F4690F91}|MVP-ProyectoFinal.csproj|c:\\users\\angel\\source\\repos\\mvp-proyectofinal\\controllers\\entidadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{247103B9-3BCF-4194-8B98-4787F4690F91}|MVP-ProyectoFinal.csproj|solutionrelative:controllers\\entidadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\angel\\source\\repos\\MVP-ProyectoFinal\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\angel\\source\\repos\\MVP-ProyectoFinal\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-18T04:32:38.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\angel\\source\\repos\\MVP-ProyectoFinal\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\angel\\source\\repos\\MVP-ProyectoFinal\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-18T04:32:33.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\angel\\source\\repos\\MVP-ProyectoFinal\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\angel\\source\\repos\\MVP-ProyectoFinal\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-18T04:32:29.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\angel\\source\\repos\\MVP-ProyectoFinal\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\angel\\source\\repos\\MVP-ProyectoFinal\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-18T04:31:59.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\angel\\source\\repos\\MVP-ProyectoFinal\\Views\\Juego\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Juego\\Index.cshtml",
+              "ToolTip": "C:\\Users\\angel\\source\\repos\\MVP-ProyectoFinal\\Views\\Juego\\Index.cshtml",
+              "RelativeToolTip": "Views\\Juego\\Index.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAACkAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-18T04:31:56.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\angel\\source\\repos\\MVP-ProyectoFinal\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\angel\\source\\repos\\MVP-ProyectoFinal\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-18T04:31:54.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\angel\\source\\repos\\MVP-ProyectoFinal\\Views\\Entidad\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Entidad\\Index.cshtml",
+              "ToolTip": "C:\\Users\\angel\\source\\repos\\MVP-ProyectoFinal\\Views\\Entidad\\Index.cshtml",
+              "RelativeToolTip": "Views\\Entidad\\Index.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAACsAAABmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-18T04:31:39.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\angel\\source\\repos\\MVP-ProyectoFinal\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\angel\\source\\repos\\MVP-ProyectoFinal\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-18T04:31:50.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\angel\\source\\repos\\MVP-ProyectoFinal\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\angel\\source\\repos\\MVP-ProyectoFinal\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T04:32:41.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\angel\\source\\repos\\MVP-ProyectoFinal\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\angel\\source\\repos\\MVP-ProyectoFinal\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-18T04:32:39.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "VersionComparer.cs",
+              "DocumentMoniker": "C:\\Users\\angel\\source\\repos\\MVP-ProyectoFinal\\Models\\VersionComparer.cs",
+              "RelativeDocumentMoniker": "Models\\VersionComparer.cs",
+              "ToolTip": "C:\\Users\\angel\\source\\repos\\MVP-ProyectoFinal\\Models\\VersionComparer.cs",
+              "RelativeToolTip": "Models\\VersionComparer.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T04:31:27.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ResultadoIntentoVM.cs",
+              "DocumentMoniker": "C:\\Users\\angel\\source\\repos\\MVP-ProyectoFinal\\Models\\ResultadoIntentoVM.cs",
+              "RelativeDocumentMoniker": "Models\\ResultadoIntentoVM.cs",
+              "ToolTip": "C:\\Users\\angel\\source\\repos\\MVP-ProyectoFinal\\Models\\ResultadoIntentoVM.cs",
+              "RelativeToolTip": "Models\\ResultadoIntentoVM.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAYwA4AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T04:31:21.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ResultadoIntentoEntidadVM.cs",
+              "DocumentMoniker": "C:\\Users\\angel\\source\\repos\\MVP-ProyectoFinal\\Models\\ResultadoIntentoEntidadVM.cs",
+              "RelativeDocumentMoniker": "Models\\ResultadoIntentoEntidadVM.cs",
+              "ToolTip": "C:\\Users\\angel\\source\\repos\\MVP-ProyectoFinal\\Models\\ResultadoIntentoEntidadVM.cs",
+              "RelativeToolTip": "Models\\ResultadoIntentoEntidadVM.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA5wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T04:31:19.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RepositorioEntidades.cs",
+              "DocumentMoniker": "C:\\Users\\angel\\source\\repos\\MVP-ProyectoFinal\\Models\\RepositorioEntidades.cs",
+              "RelativeDocumentMoniker": "Models\\RepositorioEntidades.cs",
+              "ToolTip": "C:\\Users\\angel\\source\\repos\\MVP-ProyectoFinal\\Models\\RepositorioEntidades.cs",
+              "RelativeToolTip": "Models\\RepositorioEntidades.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T04:31:13.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RepositorioBloques.cs",
+              "DocumentMoniker": "C:\\Users\\angel\\source\\repos\\MVP-ProyectoFinal\\Models\\RepositorioBloques.cs",
+              "RelativeDocumentMoniker": "Models\\RepositorioBloques.cs",
+              "ToolTip": "C:\\Users\\angel\\source\\repos\\MVP-ProyectoFinal\\Models\\RepositorioBloques.cs",
+              "RelativeToolTip": "Models\\RepositorioBloques.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T04:31:09.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\angel\\source\\repos\\MVP-ProyectoFinal\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\angel\\source\\repos\\MVP-ProyectoFinal\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T04:31:08.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Entidad.cs",
+              "DocumentMoniker": "C:\\Users\\angel\\source\\repos\\MVP-ProyectoFinal\\Models\\Entidad.cs",
+              "RelativeDocumentMoniker": "Models\\Entidad.cs",
+              "ToolTip": "C:\\Users\\angel\\source\\repos\\MVP-ProyectoFinal\\Models\\Entidad.cs",
+              "RelativeToolTip": "Models\\Entidad.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T04:30:54.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Bloque.cs",
+              "DocumentMoniker": "C:\\Users\\angel\\source\\repos\\MVP-ProyectoFinal\\Models\\Bloque.cs",
+              "RelativeDocumentMoniker": "Models\\Bloque.cs",
+              "ToolTip": "C:\\Users\\angel\\source\\repos\\MVP-ProyectoFinal\\Models\\Bloque.cs",
+              "RelativeToolTip": "Models\\Bloque.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T04:30:52.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "JuegoController.cs",
+              "DocumentMoniker": "C:\\Users\\angel\\source\\repos\\MVP-ProyectoFinal\\Controllers\\JuegoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\JuegoController.cs",
+              "ToolTip": "C:\\Users\\angel\\source\\repos\\MVP-ProyectoFinal\\Controllers\\JuegoController.cs",
+              "RelativeToolTip": "Controllers\\JuegoController.cs",
+              "ViewState": "AgIAAGcAAAAAAAAAAAA5wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T04:30:48.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\angel\\source\\repos\\MVP-ProyectoFinal\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\angel\\source\\repos\\MVP-ProyectoFinal\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T04:30:45.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "EntidadController.cs",
+              "DocumentMoniker": "C:\\Users\\angel\\source\\repos\\MVP-ProyectoFinal\\Controllers\\EntidadController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EntidadController.cs",
+              "ToolTip": "C:\\Users\\angel\\source\\repos\\MVP-ProyectoFinal\\Controllers\\EntidadController.cs",
+              "RelativeToolTip": "Controllers\\EntidadController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAmwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T04:30:41.141Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

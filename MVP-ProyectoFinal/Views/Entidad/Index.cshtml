@@ -1,0 +1,133 @@
+﻿@model List<MVP_ProyectoFinal.Models.ResultadoIntentoEntidadVM>
+@{
+    ViewData["Title"] = "Adivina la Entidad";
+}
+
+<style>
+    td.verde {
+        background-color: #90EE90 !important;
+        color: #1a3c1a;
+        font-weight: bold;
+    }
+
+    td.rojo {
+        background-color: #F08080 !important;
+        color: #5c1c1c;
+        font-weight: bold;
+    }
+
+    #sugerencias-container {
+        border: 1px solid #ccc;
+        border-top: none;
+        max-height: 150px;
+        overflow-y: auto;
+        position: absolute;
+        background-color: white;
+        z-index: 1000;
+        text-align: left;
+    }
+
+    .sugerencia-item {
+        padding: 8px 12px;
+        cursor: pointer;
+    }
+
+        .sugerencia-item:hover {
+            background-color: #f2f2f2;
+        }
+</style>
+
+<div class="text-center">
+    <h1 class="display-4">Adivina la Entidad</h1>
+    <div class="mb-4">
+        <a asp-controller="Entidad" asp-action="Reiniciar" class="btn btn-outline-secondary btn-sm">Reiniciar Partida</a>
+        <a asp-controller="Juego" asp-action="Index" class="btn btn-outline-primary btn-sm">Cambiar a Bloque</a>
+    </div>
+
+    @if (TempData["MensajeVictoria"] != null)
+    {
+        <h2 class="alert alert-success">@TempData["MensajeVictoria"]</h2>
+        <a asp-controller="Entidad" asp-action="Reiniciar" class="btn btn-primary btn-lg mt-3">¡Jugar de Nuevo!</a>
+    }
+    else
+    {
+        <form asp-controller="Entidad" asp-action="Adivinar" method="post" class="mb-3">
+            <div style="position: relative; display: inline-block;">
+                <input type="text" name="nombreEntidad" id="nombreEntidadInput" placeholder="Escribe para buscar..." required autofocus
+                       class="form-control" style="width: auto; vertical-align: middle;" autocomplete="off" />
+                <div id="sugerencias-container"></div>
+            </div>
+            <button type="submit" class="btn btn-primary" style="vertical-align: middle;">Adivinar</button>
+        </form>
+        @if (TempData["Error"] != null)
+        {
+            <p class="alert alert-danger">@TempData["Error"]</p>
+        }
+    }
+
+    @if (Model != null && Model.Any())
+    {
+        <table class="table table-bordered mt-4">
+            <thead class="table-dark">
+                <tr>
+                    <th>Entidad</th>
+                    <th>Tipo</th>
+                    <th>Vida</th>
+                    <th>Ataque</th>
+                    <th>Dimensión</th>
+                    <th>Año</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var intento in Model)
+                {
+                    <tr>
+                        <td>@intento.NombreEntidad</td>
+                        <td class="@intento.ColorTipo">@intento.Tipo</td>
+                        <td class="@intento.ColorVida">@intento.Vida @intento.HintVida</td>
+                        <td class="@intento.ColorAtaque">@intento.Ataque @intento.HintAtaque</td>
+                        <td class="@intento.ColorDimension">@intento.Dimension</td>
+                        <td class="@intento.ColorAnio">@intento.YearLanzamiento @intento.HintAnio</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+</div>
+
+@section Scripts {
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const input = document.getElementById('nombreEntidadInput');
+            const container = document.getElementById('sugerencias-container');
+            if (input && container) {
+                container.style.width = input.offsetWidth + 'px';
+                input.addEventListener('input', async function () {
+                    const term = input.value;
+                    container.style.width = input.offsetWidth + 'px';
+                    if (term.length < 1) { container.innerHTML = ''; return; }
+                    try {
+                        const response = await fetch(`/Entidad/SugerirEntidades?term=${encodeURIComponent(term)}`);
+                        if (!response.ok) return;
+                        const sugerencias = await response.json();
+                        container.innerHTML = '';
+                        sugerencias.forEach(sugerencia => {
+                            const div = document.createElement('div');
+                            div.textContent = sugerencia;
+                            div.classList.add('sugerencia-item');
+                            div.addEventListener('click', function () {
+                                input.value = sugerencia;
+                                container.innerHTML = '';
+                                input.focus();
+                            });
+                            container.appendChild(div);
+                        });
+                    } catch (error) { console.error('Error:', error); }
+                });
+                document.addEventListener('click', function (e) {
+                    if (e.target !== input) { container.innerHTML = ''; }
+                });
+            }
+        });
+    </script>
+}
