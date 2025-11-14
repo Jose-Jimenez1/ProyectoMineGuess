@@ -25,15 +25,6 @@ builder.Services.AddDbContextPool<AppDb>(opt =>
 var app = builder.Build();
 
 
-if (Environment.GetEnvironmentVariable("MINEGUESS_AUTO_INGEST") == "1")
-{
-    using var scope = app.Services.CreateScope();
-    var db = scope.ServiceProvider.GetRequiredService<AppDb>();
-    var ing = new MineGuess.Api.Ingest.WikiIngestor(db);
-    await ing.RunAsync("1.0");
-}
-
-
 app.UseSwagger();
 app.UseSwaggerUI();
 app.UseResponseCaching();

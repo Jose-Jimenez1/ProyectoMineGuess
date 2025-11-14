@@ -1,5 +1,9 @@
 using MVP_ProyectoFinal.Models;
 
+var contentRoot = Directory.GetCurrentDirectory();
+var webRoot = Path.Combine(contentRoot, "wwwroot");
+Directory.CreateDirectory(webRoot);
+
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllersWithViews();

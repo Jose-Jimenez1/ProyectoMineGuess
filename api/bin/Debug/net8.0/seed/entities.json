@@ -333,5 +333,203 @@
       "overworld"
     ],
     "addedIn": "1.0"
+  },
+  {
+    "key": "axolotl",
+    "name": "Axolotl",
+    "kind": "passive",
+    "dimensions": [
+      "overworld"
+    ],
+    "addedIn": "1.17"
+  },
+  {
+    "key": "goat",
+    "name": "Goat",
+    "kind": "neutral",
+    "dimensions": [
+      "overworld"
+    ],
+    "addedIn": "1.17"
+  },
+  {
+    "key": "frog",
+    "name": "Frog",
+    "kind": "passive",
+    "dimensions": [
+      "overworld"
+    ],
+    "addedIn": "1.19"
+  },
+  {
+    "key": "tadpole",
+    "name": "Tadpole",
+    "kind": "passive",
+    "dimensions": [
+      "overworld"
+    ],
+    "addedIn": "1.19"
+  },
+  {
+    "key": "warden",
+    "name": "Warden",
+    "kind": "hostile",
+    "dimensions": [
+      "overworld"
+    ],
+    "addedIn": "1.19"
+  },
+  {
+    "key": "allay",
+    "name": "Allay",
+    "kind": "passive",
+    "dimensions": [
+      "overworld"
+    ],
+    "addedIn": "1.19"
+  },
+  {
+    "key": "glow_squid",
+    "name": "Glow Squid",
+    "kind": "passive",
+    "dimensions": [
+      "overworld"
+    ],
+    "addedIn": "1.17"
+  },
+  {
+    "key": "piglin",
+    "name": "Piglin",
+    "kind": "neutral",
+    "dimensions": [
+      "nether"
+    ],
+    "addedIn": "1.16"
+  },
+  {
+    "key": "piglin_brute",
+    "name": "Piglin Brute",
+    "kind": "hostile",
+    "dimensions": [
+      "nether"
+    ],
+    "addedIn": "1.16"
+  },
+  {
+    "key": "hoglin",
+    "name": "Hoglin",
+    "kind": "hostile",
+    "dimensions": [
+      "nether"
+    ],
+    "addedIn": "1.16"
+  },
+  {
+    "key": "zoglin",
+    "name": "Zoglin",
+    "kind": "hostile",
+    "dimensions": [
+      "nether"
+    ],
+    "addedIn": "1.16"
+  },
+  {
+    "key": "strider",
+    "name": "Strider",
+    "kind": "passive",
+    "dimensions": [
+      "nether"
+    ],
+    "addedIn": "1.16"
+  },
+  {
+    "key": "zombified_piglin",
+    "name": "Zombified Piglin",
+    "kind": "neutral",
+    "dimensions": [
+      "nether"
+    ],
+    "addedIn": "1.16"
+  },
+  {
+    "key": "dolphin",
+    "name": "Dolphin",
+    "kind": "neutral",
+    "dimensions": [
+      "overworld"
+    ],
+    "addedIn": "1.13"
+  },
+  {
+    "key": "turtle",
+    "name": "Turtle",
+    "kind": "passive",
+    "dimensions": [
+      "overworld"
+    ],
+    "addedIn": "1.13"
+  },
+  {
+    "key": "parrot",
+    "name": "Parrot",
+    "kind": "passive",
+    "dimensions": [
+      "overworld"
+    ],
+    "addedIn": "1.12"
+  },
+  {
+    "key": "trader_llama",
+    "name": "Trader Llama",
+    "kind": "passive",
+    "dimensions": [
+      "overworld"
+    ],
+    "addedIn": "1.14"
+  },
+  {
+    "key": "wandering_trader",
+    "name": "Wandering Trader",
+    "kind": "neutral",
+    "dimensions": [
+      "overworld"
+    ],
+    "addedIn": "1.14"
+  },
+  {
+    "key": "ravager",
+    "name": "Ravager",
+    "kind": "hostile",
+    "dimensions": [
+      "overworld"
+    ],
+    "addedIn": "1.14"
+  },
+  {
+    "key": "pillager",
+    "name": "Pillager",
+    "kind": "hostile",
+    "dimensions": [
+      "overworld"
+    ],
+    "addedIn": "1.14"
+  },
+  {
+    "key": "vindicator",
+    "name": "Vindicator",
+    "kind": "hostile",
+    "dimensions": [
+      "overworld"
+    ],
+    "addedIn": "1.11"
+  },
+  {
+    "key": "evoker",
+    "name": "Evoker",
+    "kind": "hostile",
+    "dimensions": [
+      "overworld"
+    ],
+    "addedIn": "1.11"
   }
 ]

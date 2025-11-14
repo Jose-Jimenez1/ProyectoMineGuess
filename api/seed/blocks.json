@@ -774,5 +774,214 @@
     "category": "decorative",
     "dimension": "overworld",
     "addedIn": "1.0"
+  },
+  {
+    "key": "deepslate",
+    "name": "Deepslate",
+    "dimension": "overworld",
+    "addedIn": "1.17"
+  },
+  {
+    "key": "cobbled_deepslate",
+    "name": "Cobbled Deepslate",
+    "dimension": "overworld",
+    "addedIn": "1.17"
+  },
+  {
+    "key": "polished_deepslate",
+    "name": "Polished Deepslate",
+    "dimension": "overworld",
+    "addedIn": "1.17"
+  },
+  {
+    "key": "deepslate_bricks",
+    "name": "Deepslate Bricks",
+    "dimension": "overworld",
+    "addedIn": "1.17"
+  },
+  {
+    "key": "tuff",
+    "name": "Tuff",
+    "dimension": "overworld",
+    "addedIn": "1.17"
+  },
+  {
+    "key": "calcite",
+    "name": "Calcite",
+    "dimension": "overworld",
+    "addedIn": "1.17"
+  },
+  {
+    "key": "amethyst_block",
+    "name": "Block of Amethyst",
+    "dimension": "overworld",
+    "addedIn": "1.17"
+  },
+  {
+    "key": "budding_amethyst",
+    "name": "Budding Amethyst",
+    "dimension": "overworld",
+    "addedIn": "1.17"
+  },
+  {
+    "key": "copper_block",
+    "name": "Block of Copper",
+    "dimension": "overworld",
+    "addedIn": "1.17"
+  },
+  {
+    "key": "cut_copper",
+    "name": "Cut Copper",
+    "dimension": "overworld",
+    "addedIn": "1.17"
+  },
+  {
+    "key": "oxidized_copper",
+    "name": "Oxidized Copper",
+    "dimension": "overworld",
+    "addedIn": "1.17"
+  },
+  {
+    "key": "crimson_planks",
+    "name": "Crimson Planks",
+    "dimension": "nether",
+    "addedIn": "1.16"
+  },
+  {
+    "key": "warped_planks",
+    "name": "Warped Planks",
+    "dimension": "nether",
+    "addedIn": "1.16"
+  },
+  {
+    "key": "bamboo_planks",
+    "name": "Bamboo Planks",
+    "dimension": "overworld",
+    "addedIn": "1.20"
+  },
+  {
+    "key": "cherry_planks",
+    "name": "Cherry Planks",
+    "dimension": "overworld",
+    "addedIn": "1.20"
+  },
+  {
+    "key": "mangrove_planks",
+    "name": "Mangrove Planks",
+    "dimension": "overworld",
+    "addedIn": "1.19"
+  },
+  {
+    "key": "composter",
+    "name": "Composter",
+    "category": "functional",
+    "dimension": "overworld",
+    "addedIn": "1.14"
+  },
+  {
+    "key": "soul_campfire",
+    "name": "Soul Campfire",
+    "category": "light",
+    "dimension": "overworld",
+    "addedIn": "1.16"
+  },
+  {
+    "key": "bell",
+    "name": "Bell",
+    "category": "functional",
+    "dimension": "overworld",
+    "addedIn": "1.14"
+  },
+  {
+    "key": "target",
+    "name": "Target",
+    "category": "redstone",
+    "dimension": "overworld",
+    "addedIn": "1.16"
+  },
+  {
+    "key": "honey_block",
+    "name": "Honey Block",
+    "category": "redstone",
+    "dimension": "overworld",
+    "addedIn": "1.15"
+  },
+  {
+    "key": "scaffolding",
+    "name": "Scaffolding",
+    "category": "functional",
+    "dimension": "overworld",
+    "addedIn": "1.14"
+  },
+  {
+    "key": "ancient_debris",
+    "name": "Ancient Debris",
+    "category": "ore",
+    "dimension": "nether",
+    "addedIn": "1.16"
+  },
+  {
+    "key": "basalt",
+    "name": "Basalt",
+    "dimension": "nether",
+    "addedIn": "1.16"
+  },
+  {
+    "key": "blackstone",
+    "name": "Blackstone",
+    "dimension": "nether",
+    "addedIn": "1.16"
+  },
+  {
+    "key": "gilded_blackstone",
+    "name": "Gilded Blackstone",
+    "dimension": "nether",
+    "addedIn": "1.16"
+  },
+  {
+    "key": "lodestone",
+    "name": "Lodestone",
+    "category": "functional",
+    "dimension": "nether",
+    "addedIn": "1.16"
+  },
+  {
+    "key": "respawn_anchor",
+    "name": "Respawn Anchor",
+    "category": "functional",
+    "dimension": "nether",
+    "addedIn": "1.16"
+  },
+  {
+    "key": "crying_obsidian",
+    "name": "Crying Obsidian",
+    "dimension": "nether",
+    "addedIn": "1.16"
+  },
+  {
+    "key": "prismarine_bricks",
+    "name": "Prismarine Bricks",
+    "dimension": "overworld",
+    "addedIn": "1.8"
+  },
+  {
+    "key": "sea_pickle",
+    "name": "Sea Pickle",
+    "category": "light",
+    "dimension": "overworld",
+    "addedIn": "1.13"
+  },
+  {
+    "key": "kelp",
+    "name": "Kelp",
+    "dimension": "overworld",
+    "addedIn": "1.13"
+  },
+  {
+    "key": "shulker_box",
+    "name": "Shulker Box",
+    "category": "storage",
+    "dimension": "end",
+    "addedIn": "1.11"
   }
 ]

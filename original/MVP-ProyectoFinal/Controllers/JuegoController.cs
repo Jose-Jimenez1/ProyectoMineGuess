@@ -62,6 +62,10 @@ namespace MVP_ProyectoFinal.Controllers
 
             var valorVersionIntentada = VersionComparer.ObtenerValor(bloqueIntentado.Version);
             var valorVersionSecreta = VersionComparer.ObtenerValor(bloqueSecreto.Version);
+            var longitudNombreIntentado = bloqueIntentado.Nombre.Replace(" ", "").Length;
+            var longitudNombreSecreto = bloqueSecreto.Nombre.Replace(" ", "").Length;
+            var coincideInicial = bloqueIntentado.Nombre.Length > 0 && bloqueSecreto.Nombre.Length > 0 && char.ToUpperInvariant(bloqueIntentado.Nombre[0]) == char.ToUpperInvariant(bloqueSecreto.Nombre[0]);
+
 
             var resultado = new ResultadoIntentoVM
             {
@@ -76,6 +80,11 @@ namespace MVP_ProyectoFinal.Controllers
                 EsDeExterior = bloqueIntentado.EsDeExterior ? "Sí" : "No",
                 ColorExterior = bloqueIntentado.EsDeExterior == bloqueSecreto.EsDeExterior ? "verde" : "rojo",
                 YearLanzamiento = bloqueIntentado.YearLanzamiento,
+                LongitudNombre = longitudNombreIntentado,
+                CoincideInicial = coincideInicial ? "Sí" : "No",
+                ColorLongitudNombre = longitudNombreIntentado == longitudNombreSecreto ? "verde" : "rojo",
+                ColorCoincideInicial = coincideInicial ? "verde" : "rojo",
+                HintLongitudNombre = longitudNombreIntentado < longitudNombreSecreto ? "▲" : (longitudNombreIntentado > longitudNombreSecreto ? "▼" : ""),
                 ColorAnio = bloqueIntentado.YearLanzamiento == bloqueSecreto.YearLanzamiento ? "verde" : "rojo",
                 HintAnio = bloqueIntentado.YearLanzamiento < bloqueSecreto.YearLanzamiento ? "▲" : (bloqueIntentado.YearLanzamiento > bloqueSecreto.YearLanzamiento ? "▼" : "")
             };

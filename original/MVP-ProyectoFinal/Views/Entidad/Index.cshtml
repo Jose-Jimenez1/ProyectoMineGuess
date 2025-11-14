@@ -71,6 +71,8 @@
             <thead class="table-dark">
                 <tr>
                     <th>Entidad</th>
+                    <th>Longitud</th>
+                    <th>Inicial</th>
                     <th>Tipo</th>
                     <th>Vida</th>
                     <th>Ataque</th>
@@ -83,6 +85,8 @@
                 {
                     <tr>
                         <td>@intento.NombreEntidad</td>
+                        <td class="@intento.ColorLongitudNombre">@intento.LongitudNombre @intento.HintLongitudNombre</td>
+                        <td class="@intento.ColorCoincideInicial">@intento.CoincideInicial</td>
                         <td class="@intento.ColorTipo">@intento.Tipo</td>
                         <td class="@intento.ColorVida">@intento.Vida @intento.HintVida</td>
                         <td class="@intento.ColorAtaque">@intento.Ataque @intento.HintAtaque</td>
@@ -123,6 +127,20 @@
                             container.appendChild(div);
                         });
                     } catch (error) { console.error('Error:', error); }
+                });
+                input.addEventListener('keydown', function (e) {
+                    if (e.key === 'Enter') {
+                        const first = container.querySelector('.sugerencia-item');
+                        if (first) {
+                            e.preventDefault();
+                            input.value = first.textContent;
+                            container.innerHTML = '';
+                            const form = input.closest('form');
+                            if (form) {
+                                form.submit();
+                            }
+                        }
+                    }
                 });
                 document.addEventListener('click', function (e) {
                     if (e.target !== input) { container.innerHTML = ''; }

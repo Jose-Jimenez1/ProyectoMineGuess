@@ -5,6 +5,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MineGuess.Api", "api\MineGuess.Api.csproj", "{B87C3200-0512-4BE9-B45D-B97D31A56C9D}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MVP-ProyectoFinal", "original\MVP-ProyectoFinal\MVP-ProyectoFinal.csproj", "{3EA05EB6-FD62-46EB-9DFE-D7FD1CFD23F0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B87C3200-0512-4BE9-B45D-B97D31A56C9D} = {B87C3200-0512-4BE9-B45D-B97D31A56C9D}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

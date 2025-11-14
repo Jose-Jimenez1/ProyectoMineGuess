@@ -60,6 +60,13 @@ namespace MVP_ProyectoFinal.Controllers
                 return RedirectToAction("Reiniciar");
             }
 
+            
+            var longitudNombreIntentado = entidadIntentada.Nombre.Replace(" ", "").Length;
+            var longitudNombreSecreto = entidadSecreta.Nombre.Replace(" ", "").Length;
+            var coincideInicial = entidadIntentada.Nombre.Length > 0
+                && entidadSecreta.Nombre.Length > 0
+                && char.ToUpperInvariant(entidadIntentada.Nombre[0]) == char.ToUpperInvariant(entidadSecreta.Nombre[0]);
+
             var resultado = new ResultadoIntentoEntidadVM
             {
                 NombreEntidad = entidadIntentada.Nombre,
@@ -75,8 +82,14 @@ namespace MVP_ProyectoFinal.Controllers
                 ColorDimension = entidadIntentada.Dimension == entidadSecreta.Dimension ? "verde" : "rojo",
                 YearLanzamiento = entidadIntentada.YearLanzamiento,
                 ColorAnio = entidadIntentada.YearLanzamiento == entidadSecreta.YearLanzamiento ? "verde" : "rojo",
-                HintAnio = entidadIntentada.YearLanzamiento < entidadSecreta.YearLanzamiento ? "▲" : (entidadIntentada.YearLanzamiento > entidadSecreta.YearLanzamiento ? "▼" : "")
+                HintAnio = entidadIntentada.YearLanzamiento < entidadSecreta.YearLanzamiento ? "▲" : (entidadIntentada.YearLanzamiento > entidadSecreta.YearLanzamiento ? "▼" : ""),
+                LongitudNombre = longitudNombreIntentado,
+                CoincideInicial = coincideInicial ? "Sí" : "No",
+                ColorLongitudNombre = longitudNombreIntentado == longitudNombreSecreto ? "verde" : "rojo",
+                ColorCoincideInicial = coincideInicial ? "verde" : "rojo",
+                HintLongitudNombre = longitudNombreIntentado < longitudNombreSecreto ? "▲" : (longitudNombreIntentado > longitudNombreSecreto ? "▼" : "")
             };
+
 
             todosLosIntentos.Add(resultado);
             HttpContext.Session.SetString("IntentosEntidad", JsonSerializer.Serialize(todosLosIntentos));

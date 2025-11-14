@@ -8,6 +8,12 @@
         public int Ataque { get; set; }
         public string Dimension { get; set; } = string.Empty;
         public int YearLanzamiento { get; set; }
+        public int LongitudNombre { get; set; }
+        public string CoincideInicial { get; set; } = string.Empty;
+        public string ColorLongitudNombre { get; set; } = string.Empty;
+        public string ColorCoincideInicial { get; set; } = string.Empty;
+        public string HintLongitudNombre { get; set; } = string.Empty;
+
 
         public string ColorTipo { get; set; } = string.Empty;
         public string ColorVida { get; set; } = string.Empty;

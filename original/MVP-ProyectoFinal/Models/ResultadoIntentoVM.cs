@@ -8,6 +8,11 @@
         public string EsDestructible { get; set; } = string.Empty;
         public string EsDeExterior { get; set; } = string.Empty;
         public int YearLanzamiento { get; set; }
+        public int LongitudNombre { get; set; }
+        public string CoincideInicial { get; set; } = string.Empty;
+        public string ColorLongitudNombre { get; set; } = string.Empty;
+        public string ColorCoincideInicial { get; set; } = string.Empty;
+        public string HintLongitudNombre { get; set; } = string.Empty;
         public string ColorVersion { get; set; } = string.Empty;
         public string ColorBioma { get; set; } = string.Empty;
         public string ColorDestructible { get; set; } = string.Empty;

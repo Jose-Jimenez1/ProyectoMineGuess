@@ -8,7 +8,7 @@
       "applicationUrl": "http://localhost:5280",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development",
-        "MINEGUESS_AUTO_INGEST": "1"
+        "MINEGUESS_AUTO_INGEST": "0"
       }
     }
   }

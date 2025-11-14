@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\esteb\\Downloads\\MineGuess_fixed\\api\\MineGuess.Api.csproj": {}
+    "C:\\Users\\esteb\\Downloads\\MineGuess\\api\\MineGuess.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\esteb\\Downloads\\MineGuess_fixed\\api\\MineGuess.Api.csproj": {
+    "C:\\Users\\esteb\\Downloads\\MineGuess\\api\\MineGuess.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\esteb\\Downloads\\MineGuess_fixed\\api\\MineGuess.Api.csproj",
+        "projectUniqueName": "C:\\Users\\esteb\\Downloads\\MineGuess\\api\\MineGuess.Api.csproj",
         "projectName": "MineGuess.Api",
-        "projectPath": "C:\\Users\\esteb\\Downloads\\MineGuess_fixed\\api\\MineGuess.Api.csproj",
+        "projectPath": "C:\\Users\\esteb\\Downloads\\MineGuess\\api\\MineGuess.Api.csproj",
         "packagesPath": "C:\\Users\\esteb\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\esteb\\Downloads\\MineGuess_fixed\\api\\obj\\",
+        "outputPath": "C:\\Users\\esteb\\Downloads\\MineGuess\\api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
