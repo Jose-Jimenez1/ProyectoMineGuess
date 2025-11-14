@@ -1,0 +1,778 @@
+[
+  {
+    "key": "stone",
+    "name": "Stone",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "grass_block",
+    "name": "Grass Block",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "dirt",
+    "name": "Dirt",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "cobblestone",
+    "name": "Cobblestone",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "oak_planks",
+    "name": "Wooden Planks",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "oak_log",
+    "name": "Oak Log",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "spruce_log",
+    "name": "Spruce Log",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "birch_log",
+    "name": "Birch Log",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "oak_leaves",
+    "name": "Oak Leaves",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "spruce_leaves",
+    "name": "Spruce Leaves",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "birch_leaves",
+    "name": "Birch Leaves",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "bedrock",
+    "name": "Bedrock",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "sand",
+    "name": "Sand",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "gravel",
+    "name": "Gravel",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "clay",
+    "name": "Clay",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "ice",
+    "name": "Ice",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "snow",
+    "name": "Snow",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "snow_block",
+    "name": "Snow Block",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "cactus",
+    "name": "Cactus",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "pumpkin",
+    "name": "Pumpkin",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "jack_o_lantern",
+    "name": "Jack o'Lantern",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "glass",
+    "name": "Glass",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "bookshelf",
+    "name": "Bookshelf",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "bricks",
+    "name": "Bricks",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "brick_stairs",
+    "name": "Brick Stairs",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "brick_slab",
+    "name": "Brick Slab",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "mossy_cobblestone",
+    "name": "Mossy Cobblestone",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "obsidian",
+    "name": "Obsidian",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "torch",
+    "name": "Torch",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "furnace",
+    "name": "Furnace",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "crafting_table",
+    "name": "Crafting Table",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "ladder",
+    "name": "Ladder",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "wooden_door",
+    "name": "Wooden Door",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "iron_door",
+    "name": "Iron Door",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "wooden_pressure_plate",
+    "name": "Wooden Pressure Plate",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "stone_pressure_plate",
+    "name": "Stone Pressure Plate",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "lever",
+    "name": "Lever",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "button",
+    "name": "Stone Button",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "sign",
+    "name": "Sign",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "rail",
+    "name": "Rail",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "powered_rail",
+    "name": "Powered Rail",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "detector_rail",
+    "name": "Detector Rail",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "dispenser",
+    "name": "Dispenser",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "note_block",
+    "name": "Note Block",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "sandstone",
+    "name": "Sandstone",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "bed",
+    "name": "Bed",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "wool_white",
+    "name": "White Wool",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "wool_colors",
+    "name": "Colored Wool (all)",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "dandelion",
+    "name": "Dandelion",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "rose",
+    "name": "Rose",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "brown_mushroom",
+    "name": "Brown Mushroom",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "red_mushroom",
+    "name": "Red Mushroom",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "tnt",
+    "name": "TNT",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "chest",
+    "name": "Chest",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "jukebox",
+    "name": "Jukebox",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "fence_oak",
+    "name": "Fence",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "fence_gate_oak",
+    "name": "Fence Gate",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "stairs_oak",
+    "name": "Oak Stairs",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "stairs_cobblestone",
+    "name": "Cobblestone Stairs",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "vines",
+    "name": "Vines",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "melon_block",
+    "name": "Melon Block",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "melon_stem",
+    "name": "Melon Stem",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "pumpkin_stem",
+    "name": "Pumpkin Stem",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "stone_bricks",
+    "name": "Stone Bricks",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "stone_brick_stairs",
+    "name": "Stone Brick Stairs",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "stone_brick_slab",
+    "name": "Stone Brick Slab",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "glass_pane",
+    "name": "Glass Pane",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "iron_bars",
+    "name": "Iron Bars",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "mushroom_brown_cap",
+    "name": "Huge Brown Mushroom",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "mushroom_red_cap",
+    "name": "Huge Red Mushroom",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "lily_pad",
+    "name": "Lily Pad",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "sugar_cane",
+    "name": "Sugar Cane",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "farmland",
+    "name": "Farmland",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "wheat_crops",
+    "name": "Wheat Crops",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "coal_ore",
+    "name": "Coal Ore",
+    "category": "ore",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "iron_ore",
+    "name": "Iron Ore",
+    "category": "ore",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "gold_ore",
+    "name": "Gold Ore",
+    "category": "ore",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "diamond_ore",
+    "name": "Diamond Ore",
+    "category": "ore",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "lapis_ore",
+    "name": "Lapis Lazuli Ore",
+    "category": "ore",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "redstone_ore",
+    "name": "Redstone Ore",
+    "category": "ore",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "block_of_iron",
+    "name": "Block of Iron",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "block_of_gold",
+    "name": "Block of Gold",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "block_of_diamond",
+    "name": "Block of Diamond",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "block_of_lapis",
+    "name": "Block of Lapis Lazuli",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "redstone_wire",
+    "name": "Redstone Wire",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "redstone_torch",
+    "name": "Redstone Torch",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "redstone_repeater",
+    "name": "Redstone Repeater",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "netherrack",
+    "name": "Netherrack",
+    "dimension": "nether",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "soul_sand",
+    "name": "Soul Sand",
+    "dimension": "nether",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "glowstone",
+    "name": "Glowstone",
+    "dimension": "nether",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "nether_bricks",
+    "name": "Nether Bricks",
+    "dimension": "nether",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "nether_brick_fence",
+    "name": "Nether Brick Fence",
+    "dimension": "nether",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "nether_brick_stairs",
+    "name": "Nether Brick Stairs",
+    "dimension": "nether",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "nether_wart",
+    "name": "Nether Wart",
+    "dimension": "nether",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "end_stone",
+    "name": "End Stone",
+    "dimension": "end",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "end_portal",
+    "name": "End Portal",
+    "dimension": "end",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "end_portal_frame",
+    "name": "End Portal Frame",
+    "dimension": "end",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "dragon_egg",
+    "name": "Dragon Egg",
+    "dimension": "end",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "enchanting_table",
+    "name": "Enchanting Table",
+    "category": "functional",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "anvil",
+    "name": "Anvil",
+    "category": "functional",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "beacon",
+    "name": "Beacon",
+    "category": "functional",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "ender_chest",
+    "name": "Ender Chest",
+    "category": "storage",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "hopper",
+    "name": "Hopper",
+    "category": "redstone",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "dropper",
+    "name": "Dropper",
+    "category": "redstone",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "comparator",
+    "name": "Redstone Comparator",
+    "category": "redstone",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "emerald_block",
+    "name": "Block of Emerald",
+    "category": "storage",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "emerald_ore",
+    "name": "Emerald Ore",
+    "category": "ore",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "quartz_block",
+    "name": "Block of Quartz",
+    "category": "decorative",
+    "dimension": "nether",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "nether_quartz_ore",
+    "name": "Nether Quartz Ore",
+    "category": "ore",
+    "dimension": "nether",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "sea_lantern",
+    "name": "Sea Lantern",
+    "category": "light",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "prismarine",
+    "name": "Prismarine",
+    "category": "decorative",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "dark_prismarine",
+    "name": "Dark Prismarine",
+    "category": "decorative",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "slime_block",
+    "name": "Slime Block",
+    "category": "technical",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "magma_block",
+    "name": "Magma Block",
+    "category": "technical",
+    "dimension": "nether",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "barrel",
+    "name": "Barrel",
+    "category": "storage",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "blast_furnace",
+    "name": "Blast Furnace",
+    "category": "functional",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "smoker",
+    "name": "Smoker",
+    "category": "functional",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "cartography_table",
+    "name": "Cartography Table",
+    "category": "functional",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "fletching_table",
+    "name": "Fletching Table",
+    "category": "functional",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "smithing_table",
+    "name": "Smithing Table",
+    "category": "functional",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "stonecutter",
+    "name": "Stonecutter",
+    "category": "functional",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "grindstone",
+    "name": "Grindstone",
+    "category": "functional",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "lantern",
+    "name": "Lantern",
+    "category": "light",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  },
+  {
+    "key": "campfire",
+    "name": "Campfire",
+    "category": "decorative",
+    "dimension": "overworld",
+    "addedIn": "1.0"
+  }
+]

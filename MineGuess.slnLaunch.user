@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "api\\MineGuess.Api.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "original\\MVP-ProyectoFinal\\MVP-ProyectoFinal.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

@@ -1,0 +1,337 @@
+[
+  {
+    "key": "pig",
+    "name": "Pig",
+    "kind": "passive",
+    "dimensions": [
+      "overworld"
+    ],
+    "addedIn": "1.0"
+  },
+  {
+    "key": "sheep",
+    "name": "Sheep",
+    "kind": "passive",
+    "dimensions": [
+      "overworld"
+    ],
+    "addedIn": "1.0"
+  },
+  {
+    "key": "cow",
+    "name": "Cow",
+    "kind": "passive",
+    "dimensions": [
+      "overworld"
+    ],
+    "addedIn": "1.0"
+  },
+  {
+    "key": "chicken",
+    "name": "Chicken",
+    "kind": "passive",
+    "dimensions": [
+      "overworld"
+    ],
+    "addedIn": "1.0"
+  },
+  {
+    "key": "squid",
+    "name": "Squid",
+    "kind": "passive",
+    "dimensions": [
+      "overworld"
+    ],
+    "addedIn": "1.0"
+  },
+  {
+    "key": "mooshroom",
+    "name": "Mooshroom",
+    "kind": "passive",
+    "dimensions": [
+      "overworld"
+    ],
+    "addedIn": "1.0"
+  },
+  {
+    "key": "villager",
+    "name": "Villager",
+    "kind": "passive",
+    "dimensions": [
+      "overworld"
+    ],
+    "addedIn": "1.0"
+  },
+  {
+    "key": "snow_golem",
+    "name": "Snow Golem",
+    "kind": "passive",
+    "dimensions": [
+      "overworld"
+    ],
+    "addedIn": "1.0"
+  },
+  {
+    "key": "wolf",
+    "name": "Wolf",
+    "kind": "neutral",
+    "dimensions": [
+      "overworld"
+    ],
+    "addedIn": "1.0"
+  },
+  {
+    "key": "enderman",
+    "name": "Enderman",
+    "kind": "neutral",
+    "dimensions": [
+      "overworld",
+      "end"
+    ],
+    "addedIn": "1.0"
+  },
+  {
+    "key": "zombie_pigman",
+    "name": "Zombie Pigman",
+    "kind": "neutral",
+    "dimensions": [
+      "nether"
+    ],
+    "addedIn": "1.0"
+  },
+  {
+    "key": "spider",
+    "name": "Spider",
+    "kind": "neutral",
+    "dimensions": [
+      "overworld"
+    ],
+    "addedIn": "1.0"
+  },
+  {
+    "key": "zombie",
+    "name": "Zombie",
+    "kind": "hostile",
+    "dimensions": [
+      "overworld"
+    ],
+    "addedIn": "1.0"
+  },
+  {
+    "key": "skeleton",
+    "name": "Skeleton",
+    "kind": "hostile",
+    "dimensions": [
+      "overworld"
+    ],
+    "addedIn": "1.0"
+  },
+  {
+    "key": "creeper",
+    "name": "Creeper",
+    "kind": "hostile",
+    "dimensions": [
+      "overworld"
+    ],
+    "addedIn": "1.0"
+  },
+  {
+    "key": "cave_spider",
+    "name": "Cave Spider",
+    "kind": "hostile",
+    "dimensions": [
+      "overworld"
+    ],
+    "addedIn": "1.0"
+  },
+  {
+    "key": "slime",
+    "name": "Slime",
+    "kind": "hostile",
+    "dimensions": [
+      "overworld"
+    ],
+    "addedIn": "1.0"
+  },
+  {
+    "key": "ghast",
+    "name": "Ghast",
+    "kind": "hostile",
+    "dimensions": [
+      "nether"
+    ],
+    "addedIn": "1.0"
+  },
+  {
+    "key": "blaze",
+    "name": "Blaze",
+    "kind": "hostile",
+    "dimensions": [
+      "nether"
+    ],
+    "addedIn": "1.0"
+  },
+  {
+    "key": "magma_cube",
+    "name": "Magma Cube",
+    "kind": "hostile",
+    "dimensions": [
+      "nether"
+    ],
+    "addedIn": "1.0"
+  },
+  {
+    "key": "silverfish",
+    "name": "Silverfish",
+    "kind": "hostile",
+    "dimensions": [
+      "overworld"
+    ],
+    "addedIn": "1.0"
+  },
+  {
+    "key": "ender_dragon",
+    "name": "Ender Dragon",
+    "kind": "hostile",
+    "dimensions": [
+      "end"
+    ],
+    "addedIn": "1.0"
+  },
+  {
+    "key": "wither",
+    "name": "Wither",
+    "kind": "boss",
+    "dimensions": [
+      "overworld",
+      "nether"
+    ],
+    "addedIn": "1.0"
+  },
+  {
+    "key": "wither_skeleton",
+    "name": "Wither Skeleton",
+    "kind": "hostile",
+    "dimensions": [
+      "nether"
+    ],
+    "addedIn": "1.0"
+  },
+  {
+    "key": "witch",
+    "name": "Witch",
+    "kind": "hostile",
+    "dimensions": [
+      "overworld"
+    ],
+    "addedIn": "1.0"
+  },
+  {
+    "key": "guardian",
+    "name": "Guardian",
+    "kind": "hostile",
+    "dimensions": [
+      "overworld"
+    ],
+    "addedIn": "1.0"
+  },
+  {
+    "key": "elder_guardian",
+    "name": "Elder Guardian",
+    "kind": "boss",
+    "dimensions": [
+      "overworld"
+    ],
+    "addedIn": "1.0"
+  },
+  {
+    "key": "iron_golem",
+    "name": "Iron Golem",
+    "kind": "neutral",
+    "dimensions": [
+      "overworld"
+    ],
+    "addedIn": "1.0"
+  },
+  {
+    "key": "shulker",
+    "name": "Shulker",
+    "kind": "hostile",
+    "dimensions": [
+      "end"
+    ],
+    "addedIn": "1.0"
+  },
+  {
+    "key": "husk",
+    "name": "Husk",
+    "kind": "hostile",
+    "dimensions": [
+      "overworld"
+    ],
+    "addedIn": "1.0"
+  },
+  {
+    "key": "stray",
+    "name": "Stray",
+    "kind": "hostile",
+    "dimensions": [
+      "overworld"
+    ],
+    "addedIn": "1.0"
+  },
+  {
+    "key": "drowned",
+    "name": "Drowned",
+    "kind": "hostile",
+    "dimensions": [
+      "overworld"
+    ],
+    "addedIn": "1.0"
+  },
+  {
+    "key": "phantom",
+    "name": "Phantom",
+    "kind": "hostile",
+    "dimensions": [
+      "overworld"
+    ],
+    "addedIn": "1.0"
+  },
+  {
+    "key": "llama",
+    "name": "Llama",
+    "kind": "passive",
+    "dimensions": [
+      "overworld"
+    ],
+    "addedIn": "1.0"
+  },
+  {
+    "key": "panda",
+    "name": "Panda",
+    "kind": "passive",
+    "dimensions": [
+      "overworld"
+    ],
+    "addedIn": "1.0"
+  },
+  {
+    "key": "fox",
+    "name": "Fox",
+    "kind": "passive",
+    "dimensions": [
+      "overworld"
+    ],
+    "addedIn": "1.0"
+  },
+  {
+    "key": "bee",
+    "name": "Bee",
+    "kind": "neutral",
+    "dimensions": [
+      "overworld"
+    ],
+    "addedIn": "1.0"
+  }
+]
