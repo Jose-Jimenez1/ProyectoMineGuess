@@ -1,12 +1,11 @@
-
 namespace MineGuess.Api.Models;
 
 public class Block
 {
     public int Id { get; set; }
-    public string Key { get; set; } = "";      
-    public string Name { get; set; } = "";     
-    public string? Category { get; set; }      
+    public string Key { get; set; } = "";
+    public string Name { get; set; } = "";
+    public string? Category { get; set; }
     public decimal? Hardness { get; set; }
     public decimal? BlastResistance { get; set; }
     public bool? HasGravity { get; set; }

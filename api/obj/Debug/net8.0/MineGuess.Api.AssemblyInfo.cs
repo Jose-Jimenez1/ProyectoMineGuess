@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MineGuess.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8c7578c138534dd640543cb53ffa69ba8e64e112")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("MineGuess.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MineGuess.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

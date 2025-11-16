@@ -605,14 +605,14 @@
     "name": "Anvil",
     "category": "functional",
     "dimension": "overworld",
-    "addedIn": "1.0"
+    "addedIn": "1.4"
   },
   {
     "key": "beacon",
     "name": "Beacon",
     "category": "functional",
     "dimension": "overworld",
-    "addedIn": "1.0"
+    "addedIn": "1.4"
   },
   {
     "key": "ender_chest",
@@ -626,21 +626,21 @@
     "name": "Hopper",
     "category": "redstone",
     "dimension": "overworld",
-    "addedIn": "1.0"
+    "addedIn": "1.5"
   },
   {
     "key": "dropper",
     "name": "Dropper",
     "category": "redstone",
     "dimension": "overworld",
-    "addedIn": "1.0"
+    "addedIn": "1.5"
   },
   {
     "key": "comparator",
     "name": "Redstone Comparator",
     "category": "redstone",
     "dimension": "overworld",
-    "addedIn": "1.0"
+    "addedIn": "1.5"
   },
   {
     "key": "emerald_block",
@@ -654,42 +654,42 @@
     "name": "Emerald Ore",
     "category": "ore",
     "dimension": "overworld",
-    "addedIn": "1.0"
+    "addedIn": "1.3"
   },
   {
     "key": "quartz_block",
     "name": "Block of Quartz",
     "category": "decorative",
     "dimension": "nether",
-    "addedIn": "1.0"
+    "addedIn": "1.5"
   },
   {
     "key": "nether_quartz_ore",
     "name": "Nether Quartz Ore",
     "category": "ore",
     "dimension": "nether",
-    "addedIn": "1.0"
+    "addedIn": "1.5"
   },
   {
     "key": "sea_lantern",
     "name": "Sea Lantern",
     "category": "light",
     "dimension": "overworld",
-    "addedIn": "1.0"
+    "addedIn": "1.8"
   },
   {
     "key": "prismarine",
     "name": "Prismarine",
     "category": "decorative",
     "dimension": "overworld",
-    "addedIn": "1.0"
+    "addedIn": "1.8"
   },
   {
     "key": "dark_prismarine",
     "name": "Dark Prismarine",
     "category": "decorative",
     "dimension": "overworld",
-    "addedIn": "1.0"
+    "addedIn": "1.8"
   },
   {
     "key": "slime_block",
@@ -717,63 +717,63 @@
     "name": "Blast Furnace",
     "category": "functional",
     "dimension": "overworld",
-    "addedIn": "1.0"
+    "addedIn": "1.14"
   },
   {
     "key": "smoker",
     "name": "Smoker",
     "category": "functional",
     "dimension": "overworld",
-    "addedIn": "1.0"
+    "addedIn": "1.14"
   },
   {
     "key": "cartography_table",
     "name": "Cartography Table",
     "category": "functional",
     "dimension": "overworld",
-    "addedIn": "1.0"
+    "addedIn": "1.14"
   },
   {
     "key": "fletching_table",
     "name": "Fletching Table",
     "category": "functional",
     "dimension": "overworld",
-    "addedIn": "1.0"
+    "addedIn": "1.14"
   },
   {
     "key": "smithing_table",
     "name": "Smithing Table",
     "category": "functional",
     "dimension": "overworld",
-    "addedIn": "1.0"
+    "addedIn": "1.14"
   },
   {
     "key": "stonecutter",
     "name": "Stonecutter",
     "category": "functional",
     "dimension": "overworld",
-    "addedIn": "1.0"
+    "addedIn": "1.14"
   },
   {
     "key": "grindstone",
     "name": "Grindstone",
     "category": "functional",
     "dimension": "overworld",
-    "addedIn": "1.0"
+    "addedIn": "1.14"
   },
   {
     "key": "lantern",
     "name": "Lantern",
     "category": "light",
     "dimension": "overworld",
-    "addedIn": "1.0"
+    "addedIn": "1.14"
   },
   {
     "key": "campfire",
     "name": "Campfire",
     "category": "decorative",
     "dimension": "overworld",
-    "addedIn": "1.0"
+    "addedIn": "1.14"
   },
   {
     "key": "deepslate",

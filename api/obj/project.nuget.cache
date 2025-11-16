@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "V7cT+RGTKmA=",
+  "dgSpecHash": "9PXubboJ4zQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\esteb\\Downloads\\MineGuess_english_db\\api\\MineGuess.Api.csproj",
+  "projectFilePath": "C:\\Users\\esteb\\Downloads\\MineGuess_v2\\api\\MineGuess.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\esteb\\.nuget\\packages\\htmlagilitypack\\1.11.61\\htmlagilitypack.1.11.61.nupkg.sha512",
     "C:\\Users\\esteb\\.nuget\\packages\\microsoft.data.sqlite.core\\8.0.7\\microsoft.data.sqlite.core.8.0.7.nupkg.sha512",
