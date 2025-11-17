@@ -3,43 +3,11 @@
     ViewData["Title"] = "Guess the Entity";
 }
 
-<style>
-    td.verde {
-        background-color: #90EE90 !important;
-        color: #1a3c1a;
-        font-weight: bold;
-    }
 
-    td.rojo {
-        background-color: #F08080 !important;
-        color: #5c1c1c;
-        font-weight: bold;
-    }
 
-    #sugerencias-container {
-        border: 1px solid #ccc;
-        border-top: none;
-        max-height: 150px;
-        overflow-y: auto;
-        position: absolute;
-        background-color: white;
-        z-index: 1000;
-        text-align: left;
-    }
-
-    .sugerencia-item {
-        padding: 8px 12px;
-        cursor: pointer;
-    }
-
-        .sugerencia-item:hover {
-            background-color: #f2f2f2;
-        }
-</style>
-
-<div class="text-center">
-    <h1 class="display-4">Guess the Entity</h1>
-    <div class="mb-4">
+<div class="text-center game-container">
+    <h1 class="game-title">Guess the Entity</h1>
+    <div class="game-toolbar">
         <a asp-controller="Entidad" asp-action="Reiniciar" class="btn btn-outline-secondary btn-sm">Restart Game</a>
         <a asp-controller="Juego" asp-action="Index" class="btn btn-outline-primary btn-sm">Switch to Blocks</a>
         <a asp-controller="Bioma" asp-action="Index" class="btn btn-outline-warning btn-sm">Switch to Biomes</a>
@@ -52,15 +20,15 @@
     }
     else
     {
-        <form asp-controller="Entidad" asp-action="Adivinar" method="post" class="mb-3">
-            <div style="position: relative; display: inline-block;">
+        <form asp-controller="Entidad" asp-action="Adivinar" method="post" class="mb-3 game-guess-form">
+            <div>
                 <input type="text" name="nombreEntidad" id="nombreEntidadInput" placeholder="Type an entity..." required autofocus
-                       class="form-control" style="width: auto; vertical-align: middle;" autocomplete="off" />
+                       class="form-control game-guess-input" autocomplete="off" />
                 <div id="sugerencias-container"></div>
             </div>
-            <button type="submit" class="btn btn-primary" style="vertical-align: middle;">Guess</button>
+            <button type="submit" class="btn btn-primary">Guess</button>
         </form>
-        <form asp-controller="Entidad" asp-action="GiveUp" method="post" class="mb-3">
+        <form asp-controller="Entidad" asp-action="GiveUp" method="post" class="mb-3 game-giveup-form">
             <button type="submit" class="btn btn-outline-danger btn-sm">Give Up</button>
         </form>
 
@@ -72,7 +40,7 @@
 
     @if (Model != null && Model.Any())
     {
-        <table class="table table-bordered mt-4">
+        <table class="table table-bordered game-table mt-4">
             <thead class="table-dark">
                 <tr>
                     <th>Entity</th>

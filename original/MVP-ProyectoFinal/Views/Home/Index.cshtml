@@ -2,14 +2,29 @@
     ViewData["Title"] = "Home";
 }
 
-<div class="text-center">
-    <h1 class="display-4">MineGuess</h1>
-    <p class="mt-4">
-        Are you ready to test your Minecraft knowledge?
+<div class="home-hero text-center">
+    <h1 class="home-title">MineGuess</h1>
+    <p class="home-subtitle">
+        Guess the hidden Minecraft blocks, entities and biomes in as few attempts as possible.
     </p>
-    <div class="mt-4 d-flex justify-content-center flex-wrap gap-3">
-        <a class="btn btn-primary btn-lg" asp-controller="Juego" asp-action="Index">Blocks Mode</a>
-        <a class="btn btn-success btn-lg" asp-controller="Entidad" asp-action="Index">Entities Mode</a>
-        <a class="btn btn-warning btn-lg" asp-controller="Bioma" asp-action="Index">Biomes Mode</a>
+    <div class="home-modes">
+        <div class="home-mode-card">
+            <div class="home-mode-badge">Classic</div>
+            <div class="home-mode-title">Blocks Mode</div>
+            <p class="home-mode-text">Use length, version, function and more hints to find the secret block.</p>
+            <a class="btn btn-primary mt-3" asp-controller="Juego" asp-action="Index">Play blocks</a>
+        </div>
+        <div class="home-mode-card">
+            <div class="home-mode-badge">Mobs</div>
+            <div class="home-mode-title">Entities Mode</div>
+            <p class="home-mode-text">Test your knowledge about every creature roaming the Overworld, Nether and End.</p>
+            <a class="btn btn-primary mt-3" asp-controller="Entidad" asp-action="Index">Play entities</a>
+        </div>
+        <div class="home-mode-card">
+            <div class="home-mode-badge">Explorer</div>
+            <div class="home-mode-title">Biomes Mode</div>
+            <p class="home-mode-text">Follow climate, height and dimension clues to discover the mystery biome.</p>
+            <a class="btn btn-primary mt-3" asp-controller="Bioma" asp-action="Index">Play biomes</a>
+        </div>
     </div>
 </div>
