@@ -6,7 +6,12 @@ html {
 body {
     margin: 0;
     min-height: 100vh;
-    background: radial-gradient(circle at top, #22c55e 0, #0f172a 38%, #020617 100%);
+    background-color: #111827;
+    background-image: url('/images/mineguess-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     color: #e5e7eb;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
@@ -52,7 +57,7 @@ a:hover {
     font-weight: 700;
     letter-spacing: 0.12em;
     text-transform: uppercase;
-    color: #fbbf24;
+    color: #3b9b3b;
 }
 
 .mg-logo-subtitle {
@@ -78,14 +83,14 @@ a:hover {
 }
 
 .mg-nav-link:hover {
-    background: linear-gradient(90deg, #22c55e, #22d3ee);
+    background-color: #3b9b3b;
     color: #020617;
     transform: translateY(-1px);
     box-shadow: 0 10px 24px rgba(34, 197, 94, 0.45);
 }
 
 .mg-nav-link-active {
-    background: linear-gradient(90deg, #22c55e, #22d3ee);
+    background-color: #3b9b3b;
     color: #020617;
     border-color: rgba(34, 197, 94, 0.9);
     box-shadow: 0 0 22px rgba(34, 197, 94, 0.55);
@@ -145,7 +150,7 @@ a:hover {
     min-width: 220px;
     padding: 1.3rem 1.4rem;
     border-radius: 1.1rem;
-    background: radial-gradient(circle at top, rgba(34, 197, 94, 0.14), rgba(15, 23, 42, 1));
+    background-color: rgba(15, 23, 42, 0.96);
     border: 1px solid rgba(148, 163, 184, 0.55);
     box-shadow: 0 20px 40px rgba(15, 23, 42, 0.85);
     text-align: left;
@@ -179,7 +184,7 @@ a:hover {
 
 .btn-primary {
     color: #020617;
-    background: linear-gradient(135deg, #22c55e, #22d3ee);
+    background-color: #3b9b3b;
     border: none;
     border-radius: 999px;
     padding: 0.6rem 1.6rem;
@@ -271,7 +276,7 @@ a:hover {
     margin-top: 1rem;
     display: flex;
     justify-content: center;
-    gap: 0.75rem;
+    gap: 1.25rem;
     flex-wrap: wrap;
 }
 
@@ -283,7 +288,7 @@ a:hover {
     margin-top: 1.5rem;
     border-radius: 0.9rem;
     border: 1px solid rgba(34, 197, 94, 0.6);
-    background: radial-gradient(circle at left, rgba(34, 197, 94, 0.16), rgba(15, 23, 42, 1));
+    background-color: rgba(22, 163, 74, 0.22);
     color: #bbf7d0;
     padding: 1rem 1.25rem;
     font-weight: 500;
@@ -292,7 +297,7 @@ a:hover {
 .game-guess-form {
     display: inline-flex;
     align-items: center;
-    gap: 0.6rem;
+    gap: 0.9rem;
     position: relative;
 }
 
@@ -323,7 +328,7 @@ a:hover {
 }
 
 .sugerencia-item:hover {
-    background: linear-gradient(90deg, #22c55e, #22d3ee);
+    background-color: #3b9b3b;
     color: #020617;
 }
 
@@ -336,7 +341,7 @@ a:hover {
 }
 
 .table.game-table thead {
-    background: linear-gradient(90deg, #22d3ee, #22c55e);
+    background-color: #3b9b3b;
     color: #020617;
 }
 
@@ -366,13 +371,13 @@ a:hover {
 }
 
 td.verde {
-    background: linear-gradient(135deg, #4ade80, #22c55e);
+    background-color: #3b9b3b;
     color: #022c22;
     font-weight: 600;
 }
 
 td.rojo {
-    background: linear-gradient(135deg, #fb7185, #b91c1c);
+    background-color: #b91c1c;
     color: #450a0a;
     font-weight: 600;
 }
@@ -393,7 +398,7 @@ td.rojo {
     .mg-header-inner {
         flex-direction: column;
         align-items: flex-start;
-        gap: 0.75rem;
+        gap: 1.25rem;
     }
 
     .game-guess-form {
@@ -414,7 +419,7 @@ td.rojo {
 .alert-success {
     border-radius: 0.9rem;
     border: 1px solid rgba(34, 197, 94, 0.7);
-    background: radial-gradient(circle at left, rgba(34, 197, 94, 0.22), rgba(15, 23, 42, 1));
+    background-color: rgba(22, 163, 74, 0.28);
     color: #bbf7d0;
     font-weight: 600;
 }
@@ -434,7 +439,7 @@ td.rojo {
 .mg-auth {
     display: flex;
     align-items: center;
-    gap: 0.75rem;
+    gap: 1.25rem;
 }
 
 .mg-auth-user {
@@ -514,7 +519,7 @@ td.rojo {
     padding: 0.6rem 1.4rem;
     border-radius: 999px;
     border: none;
-    background-image: linear-gradient(90deg, #22c55e, #06b6d4);
+    background-color: #3b9b3b;
     color: #0f172a;
     font-weight: 600;
     font-size: 0.95rem;

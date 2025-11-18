@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UYI3lCmDkfs=",
+  "dgSpecHash": "2roy9866l0M=",
   "success": true,
-  "projectFilePath": "C:\\Users\\esteb\\Downloads\\MineGuess_login_bind_fix\\api\\MineGuess.Api.csproj",
+  "projectFilePath": "C:\\Users\\esteb\\Downloads\\MineGuess_minecraft_theme_v2\\api\\MineGuess.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\esteb\\.nuget\\packages\\htmlagilitypack\\1.11.61\\htmlagilitypack.1.11.61.nupkg.sha512",
     "C:\\Users\\esteb\\.nuget\\packages\\microsoft.data.sqlite.core\\8.0.7\\microsoft.data.sqlite.core.8.0.7.nupkg.sha512",
