@@ -1,7 +1,7 @@
 # Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
 # More GitHub Actions for Azure: https://github.com/Azure/actions
 
-name: Build and deploy ASP.Net Core app to Azure Web App - Mineguess
+name: Build and deploy ASP.Net Core app to Azure Web App - MineGuess
 
 on:
   push:
@@ -51,15 +51,15 @@ jobs:
       - name: Login to Azure
         uses: azure/login@v2
         with:
-          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_5736AEF6A41242778E2E62A6A5427B6C }}
-          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_8B278EB1E2454B5E9D01680C7489248F }}
-          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_9B0B854DF5F041FABB87DC934B32D461 }}
+          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_FC23AEC9A4834654B9E2C46DA64858C4 }}
+          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_030E6F38052A4767BA1813D79E0FB10E }}
+          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_99C28C1116E0433C946D168B7720872B }}
 
       - name: Deploy to Azure Web App
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v3
         with:
-          app-name: 'Mineguess'
+          app-name: 'MineGuess'
           slot-name: 'Production'
           package: .
           
